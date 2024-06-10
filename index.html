@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidash Cuisine</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="./script.js" defer></script>
+
+</head>
+
+<body>
+    <nav>
+        <img id="logo" src="./assests/logos/vidashlina.png" alt="Vidash logo">
+
+        <div id="nav-links">
+            <span>Home</span>
+            <span>Menu</span>
+            <span>Reservation</span>
+            <span>Gallery</span>
+            <span>About</span>
+            <span>Blog</span>
+            <span>Contact</span>
+        </div>
+    </nav>
+    <section id="hero">
+        <div id="hero-overlay">
+            <header>
+                <span id="subtext-one" class="courgette-regular">Welcome to</span>
+                <span id="subtext-two" class="Poppins-bold">Vidash Cuisine</span>
+            </header>
+            <button class="menu-button">LOOK MENU</button>
+
+        </div>
+    </section>
+    <section id="about">
+        <div id="about-text">
+            <div class="sub-header">
+                <span class="courgette-regular">Italian Restaurant</span>
+                <span class="poppins-bold">Welcome</span>
+            </div>
+            <p id="sub-header-text">Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est.
+                Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi,
+                ac facilisis ligula sem id neque.</p>
+            <div id="about-link">
+                <a href="" class="our-story">Our Story
+
+                    <i class="fa-solid fa-arrow-right"> </i>
+                </a>
+
+            </div>
+        </div>
+        <img id="about-image" src="./assests/images/about_image.jpg" alt="about image" />
+    </section>
+
+    <section class="container">
+        <div class="header-intro" style="background-image: url(./assests/images/discover2.jpeg);
+         background-position:center 10px;">
+            <span class="courgette-regular">
+                Discover
+            </span>
+            <h3 class="poppins-bold">
+                Vidash Cuisine
+            </h3>
+        </div>
+
+        <section class="flex-container">
+            <div><img src="./assests/images/romantic_restaurant_image.jpeg" alt="romantic restaurant">
+                <br>
+                <span class="head1">Romantic Restaurant</span>
+                <br>
+                <p class="para1">Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+                <br>
+                <a href="" class="food-story"> Learn more
+                    &nbsp;<span><i class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+            <div><img src="./assests/images/deliciousreal.jpg" alt="delicious food">
+                <br>
+                <span class="head1">Delicious Food</span>
+                <br>
+                <p class="para1">Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna</p>
+                <br>
+                <a href="" class="food-story">Learn More
+                    &nbsp; <span> <i class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+            <div><img src="./assests/images/wineimage.jpg" alt="red wine">
+                <br>
+                <span class="head1">Red Wines You Love</span>
+                <br>
+                <p class="para1">Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+                <br>
+                <a href="" class="food-story">Learn More
+                    &nbsp; <span> <i class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+            </div>
+        </section>
+
+        <section id="menu">
+            <div class="sub-header">
+                <span class="courgette-regular">Discover</span>
+                <span class="poppins-bold">our Menu</span>
+            </div>
+            <div class="grid-container">
+                <div class="group1">
+                    <img src="./assests/images/lunch_image.jpeg" alt="lunch">
+                    <a href="" id="menus-button">Lunch</a>
+                </div>
+                <div class="group1">
+                    <img src="./assests/images/dinner_image.jpeg" alt="dinner">
+                    <a href="" id="menus-button">Dinner</a>
+                </div>
+                <div class="group3">
+                    <img src="./assests/images/drink_image.jpeg" alt="drinks">
+                    <a href="" id="menus-button">Drinks</a>
+                </div>
+                <div class="group3">
+                    <img src="./assests/images/starters-image.jpeg" alt="starters">
+                    <a href="" id="menus-button">Starters</a>
+                </div>
+                <div class="group2">
+                    <img src="./assests/images/happy_hour_image.jpeg" alt="happy hour">
+                    <a href="" id="menus-button">Happy Hour</a>
+                </div>
+                <div class="group3">
+                    <img src="./assests/images/dessert_image.jpeg" alt="dessert">
+                    <a href="" id="menus-button">Dessert</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="video-sec">
+            <video id="video" src="./assests/videos/discover.mp4" autoplay muted loop></video>
+            <div id="video-overlay">
+                <div class="sub-header">
+                    <span class="courgette-regular">Discover</span>
+                    <h3 class="poppins-bold">Our Video</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="reservation">
+            <div id="section1">
+                <div class="sub-header">
+                    <span class="courgette-regular">Reservation</span>
+                    <span class="poppins-bold">Book Table</span>
+                </div>
+                <form action="">
+                    <div id="input-grid">
+                        <span class="form-item">
+                            <label for="date">Date</label>
+                            <input id="date" type="date">
+                        </span>
+                        <span class="form-item">
+                            <label for="name">Name</label>
+                            <input id="name" type="text">
+                        </span>
+                        <span class="form-item">
+                            <label for="time">Time</label>
+                            <input id="time" type="time">
+                            <!-- <select name="time" id="">
+                                <option value="9:00">9:00</option>
+                                <option value="9:00">9:30</option>
+                                <option value="9:00">10:00</option>
+                                <option value="9:00">10:30</option>
+                                <option value="9:00">11:00</option>
+                                <option value="9:00">11:30</option>
+                                <option value="9:00">12:00</option>
+                            </select> -->
+                        </span>
+                        <span class="form-item">
+                            <label for="phone">Phone</label>
+                            <input id="phone" type="number">
+                        </span>
+                        <span class="form-item">
+                            <label for="people">People</label>
+                            <input id="people" type="number">
+                        </span>
+                        <span class="form-item">
+                            <label for="email">Email</label>
+                            <input id="email" type="email">
+                        </span>
+                    </div>
+                    <div id="button">
+                        <button id="btn">Book Table</button>
+                    </div>
+                </form>
+            </div>
+            <img src="./assests/images/book_table_img.jpg" alt="reservation image">
+        </section>
+        <section class="swiper mySwiper">
+            <div class="sub-header">
+                <span class="courgette-regular">Customers say</span>
+                <span class="poppins-bold">REVIEW</span>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                <div>
+                    <img src="./assests/images/review4.webp" alt="Review">
+                </div>
+                </div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </section>
+        <section>Footer goes here</section>
+</body>
+
+</html>
